@@ -28,6 +28,6 @@ jobs:
 
     - name: Publish to PyPI
       env:
-        TWINE_USERNAME: __token__
-        TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        TWINE_USERNAME: sharveshsubhash
+        TWINE_PASSWORD: pypi-AgENdGVzdC5weXBpLm9yZwIkODY0OTc5YWQtNGMxNi00ZGFhLTgyODYtNzc3MTQxY2M1OWU4AAIqWzMsIjQ3YWM3YzVjLTA2OGMtNDk0Yy05YmJlLTNkMDY0YjNkYmNjNCJdAAAGIFfciP2GZhMKab1IgCWMPdWNJ2eGcui_0T6xn6bQJQZD
       run: twine upload dist/*
