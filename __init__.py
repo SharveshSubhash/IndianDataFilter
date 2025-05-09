@@ -1,0 +1,1 @@
+from .indianblog import checker
